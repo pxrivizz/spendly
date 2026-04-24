@@ -1,0 +1,84 @@
+{
+  "@@locale": "en",
+
+  "appName": "Spendly",
+  "@appName": { "description": "The application name" },
+
+  "dashboard": "Dashboard",
+  "@dashboard": { "description": "Bottom nav label" },
+
+  "analytics": "Analytics",
+  "@analytics": { "description": "Bottom nav label" },
+
+  "budget": "Budget",
+  "@budget": { "description": "Bottom nav label" },
+
+  "transactions": "Transactions",
+  "@transactions": { "description": "Bottom nav label" },
+
+  "profile": "Profile",
+  "@profile": { "description": "Bottom nav label" },
+
+  "addTransaction": "Add Transaction",
+  "@addTransaction": {},
+
+  "signIn": "Sign In",
+  "@signIn": {},
+
+  "signUp": "Sign Up",
+  "@signUp": {},
+
+  "signOut": "Sign Out",
+  "@signOut": {},
+
+  "email": "Email Address",
+  "@email": {},
+
+  "password": "Password",
+  "@password": {},
+
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {},
+
+  "fullName": "Full Name",
+  "@fullName": {},
+
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {},
+
+  "sendResetLink": "Send Reset Link",
+  "@sendResetLink": {},
+
+  "emailSent": "Email Sent!",
+  "@emailSent": {},
+
+  "resend": "Resend",
+  "@resend": {},
+
+  "backToLogin": "Back to Login",
+  "@backToLogin": {},
+
+  "income": "Income",
+  "@income": {},
+
+  "expense": "Expense",
+  "@expense": {},
+
+  "balance": "Balance",
+  "@balance": {},
+
+  "totalIncome": "Total Income",
+  "@totalIncome": {},
+
+  "totalExpense": "Total Expense",
+  "@totalExpense": {},
+
+  "errorGeneric": "An unexpected error occurred. Please try again.",
+  "@errorGeneric": {},
+
+  "errorNoAccount": "Don't have an account?",
+  "@errorNoAccount": {},
+
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {}
+}

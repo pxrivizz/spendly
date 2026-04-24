@@ -1,0 +1,57 @@
+# Spendly - .gitignore
+# Bu dosya, GitHub'a yüklenmemesi gereken (gereksiz, yerel veya gizli) dosyaları belirler.
+
+# --- Flutter / Dart ---
+# Bağımlılıklar ve derleme çıktıları
+# '**/ ' kullanımı alt klasörlerdeki tüm eşleşmeleri yakalar.
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+
+# --- Android ---
+# Android tarafındaki derleme ve yerel ayar dosyaları
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/local.properties
+**/android/key.properties
+**/android/.gradle/
+**/*.iml
+
+# --- iOS / macOS ---
+# Xcode ve macOS işletim sistemine özgü dosyalar
+.DS_Store
+**/ios/.testresult
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/.last_build_id
+
+# --- IDE (Editor) Ayarları ---
+# VS Code ayarları
+.vscode/
+# IntelliJ / Android Studio ayarları
+.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+
+# --- Firebase & Gizli Dosyalar ---
+# Eğer repo'nuz açık (public) olacaksa bu dosyaları gizlemek isteyebilirsiniz.
+# Özel API anahtarlarınızı korumak için aşağıdaki satırların başındaki '#' kaldırın:
+**/google-services.json
+**/GoogleService-Info.plist
+
+# --- Projeye Özgü Gereksiz Dosyalar ---
+SKILL.md
+stitch_assets/
+*.log
+*.swp
