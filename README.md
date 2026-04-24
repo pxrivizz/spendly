@@ -79,4 +79,4 @@ lib/
 Bu proje MIT Lisansı ile lisanslanmıştır.
 
 ---
-*Geliştirici: [Halil Çiftçi](https://github.com/halilciftci)*
+*Geliştirici: [Halil Çiftçi](https://github.com/pxrivizz)*
